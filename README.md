@@ -1,6 +1,6 @@
 # nifH-phylogenetic-classifier using a Classification and Regression Tree (CART)
 
-This script phylogenetically classifies _nifH_ gene (or amplicon) sequences using the Classification and Regression Tree (CART) from [Frank et al., 2016](https://doi.org/10.1111/1758-2229.12455).  
+This script phylogenetically classifies translated _nifH_ gene (or amplicon) sequences using the Classification and Regression Tree (CART) from [Frank et al., 2016](https://doi.org/10.1111/1758-2229.12455).  
 
 The scripts directory includes the original version by Frank for Python 2 as well as an updated version for Python 3. The updated version does not require you to specify the residue position in _Azotobacter vinelandii_ NifH (protein) where multiple sequence alignment starts. Instead the script calculates the start residue, knowing that first sequence in the alignment is NifH from _Azotobacter vinelandii_ (WP_012698955.1).  (A warning is issued if the first sequence does not appear to be from _A. vinelandii_.)  We recommend that you use the updated script or the automated alternative described below.
 
